@@ -1,0 +1,26 @@
+{
+    "name": "rosgear/rg-be-mp-themes",
+    "description": "Extension (module) \"Themes\" for the GePanel Control Panel",
+    "keywords": ["rosgear", "gepanel", "extension (module)"],
+    "homepage": "https://rosgear.ru/component/rg-be-mp-themes/",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Tivonenko",
+            "email": "anton.tivonenko@gmail.com",
+            "homepage": "https://rosgear.ru/"
+        }
+    ],
+    "require": {
+        "rosgear/ge2-composer-plugin": "*"
+    },
+    "extra": {
+        "ge": {
+            "id": "rg.be.mp.themes",
+            "vendor": "ge"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
