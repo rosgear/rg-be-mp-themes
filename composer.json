@@ -1,7 +1,7 @@
 {
     "name": "rosgear/rg-be-mp-themes",
-    "description": "Extension (module) \"Themes\" for the GePanel Control Panel",
-    "keywords": ["rosgear", "gepanel", "extension (module)"],
+    "description": "Module extension \"Themes\" for the GePanel Control Panel",
+    "keywords": ["rosgear", "gepanel", "module", "extension"],
     "homepage": "https://rosgear.ru/component/rg-be-mp-themes/",
     "type": "component",
     "license": "MIT",
