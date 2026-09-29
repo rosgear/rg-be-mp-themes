@@ -12,8 +12,8 @@
 return [
     'name'        => 'Themes',
     'description' => 'Installing themes',
-    'version'     => '1.0.1',
-    'versionDate' => '10-06-2025',
+    'version'     => '1.0.2',
+    'versionDate' => '28-09-2026',
     'author'      => 'RosGear',
     'authorUrl'   => 'https://rosgear.ru/',
     'email'       => 'info@rosgear.ru',
