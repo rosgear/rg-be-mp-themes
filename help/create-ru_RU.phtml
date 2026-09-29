@@ -15,14 +15,15 @@
     <div class="g-help-screen g-help-screen--hidable">
         <img src="<?= $assetsUrl, '/help/create.png' ?>" />
     </div>
-    <p>Форма появляется после нажатия на кнопку <b>"Создать"</b> панели инструментов списка тем оформлений.</p>
+    <p>Форма появляется после нажатия на кнопку <b>"Создать"</b> панели инструментов <a href="<?= $url('grid') ?>">списка тем оформлений</a>.</p>
+    <p>Процесс создания новой темы оформления предусматривает использование выбранной из списка темы в качестве базового шаблона; все параметры исходной темы копируются и могут быть далее изменены.</p>
     <h2>Поля формы</h2>
     <ul class="g-help-list">
-        <li><b>Каталог.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Название.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Описание.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Автор.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Лицензия.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Версия.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Каталог.</b> В качестве названия каталога для новой темы оформления необходимо задать локальный путь — он обязательно начинается с "/", <em>например "/new-theme"</em>;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Название.</b> Название темы оформления;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Описание.</b> Описание темы оформления;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Автор.</b> Автор темы оформления;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Лицензия.</b> Лицензия, применяемая к теме оформления, <em>например "GPL-2.0-or-later"</em>;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Версия.</b> Версия темы оформления, <em>например "1.0"</em>.</li>
     </ul>
 </article>
